@@ -1,0 +1,19 @@
+Order API:
+GET /api/v1/orders/{id}: Lấy chi tiết một đơn hàng theo ID.
+GET /api/v1/orders/user/{userId}: Lấy danh sách đơn hàng của một user cụ thể.
+POST /api/v1/orders: Tạo mới đơn hàng.
+PUT /api/v1/orders/{id}: Cập nhật trạng thái hoặc thông tin đơn hàng.
+DELETE /api/v1/orders/{id}: Xóa (hoặc soft-delete) một đơn hàng.
+
+Product API:
+GET /api/v1/products: Lấy danh sách tất cả sản phẩm (có thể truyền vào category_id để lấy tất cả sản phẩm có cùng danh muc bang request param) .
+GET /api/v1/products/{id}: Lấy chi tiết sản phẩm theo ID.
+POST /api/v1/products: Thêm sản phẩm mới.
+PUT /api/v1/products/{id}: Cập nhật thông tin sản phẩm.
+DELETE /api/v1/products/{id}: Xóa (hoặc ẩn) một sản phẩm.
+
+Category API:
+GET/api/v1/categories: Lấy danh sách tất cả danh mục.
+POST /api/v1/categories: Thêm danh mục mới.
+PUT /api/v1/categories/{id}: Cập nhật danh mục.
+DELETE /api/v1/categories/{id}: Xóa một danh mục
